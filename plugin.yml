@@ -1,4 +1,4 @@
-name: You Smell Like Poop
+name: Events
 author: Dustin Dilley
 version: 0.1
 main: com.dustinlearning.events.BasicEvent

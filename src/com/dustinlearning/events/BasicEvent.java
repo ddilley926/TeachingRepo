@@ -20,8 +20,8 @@ pm.registerEvents(this, this);
 @EventHandler 
 public void onJoin(PlayerJoinEvent e){
 	Player p = e.getPlayer();
-		p.sendMessage(ChatColor.GOLD + "Thanks for joining" + ChatColor.BLUE + ChatColor.BOLD + "Cosmic Network" + p.getName());
-
+		p.sendMessage(ChatColor.GOLD + "Thanks for joining" + ChatColor.BLUE + ChatColor.BOLD + " Cosmic Network" + " " + p.getName());
+			e.getJoinMessage().remove();
 
 }
 
